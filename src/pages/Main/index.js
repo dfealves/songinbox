@@ -153,6 +153,7 @@ export default function Main() {
         </div>
       </KitFanzao>
       <Footer />
+      
     </>
   );
 }
