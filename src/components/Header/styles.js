@@ -8,7 +8,7 @@ export const Container = styled.div`
   background: linear-gradient(
     180deg,
     rgba(13, 44, 84, 1) 0%,
-    rgba(200, 206, 213, 0) 20%
+    rgba(200, 206, 213, 0) 97%
   );
   padding: 0 30px;
 
