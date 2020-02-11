@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import BannerPrincipal from '../../assets/img-apresentacao.png';
 import MulherMusica from '../../assets/mulher-musica.png';
+import BgFooter from '../../assets/footer-bg.png';
 
 export const Banner = styled.div`
-  background: url(${BannerPrincipal});
-  background-size: 100% 100%;
+  background: url(${BannerPrincipal}) 100% no-repeat;
+  background-size: cover;
 `;
 
 export const Container = styled.div`
@@ -54,7 +55,6 @@ export const Container = styled.div`
     line-height: 32px;
     display: flex;
     text-align: center;
-    margin-top: 2px;
     color: #fff;
     border: 0;
     background: rgba(0, 178, 246, 0.8);
@@ -114,5 +114,119 @@ export const Content = styled.div`
     align-items: center;
     text-align: center;
     color: #141414;
+  }
+`;
+
+export const KitFanzinho = styled.div`
+  background: #d8eaf1;
+  height: 100%;
+  width: 100%;
+
+  svg {
+    margin: 0;
+    padding: 0;
+  }
+
+  div.info-fanzinho {
+    padding-top: 15%;
+  }
+
+  div.fanzinho h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #141414;
+  }
+
+  div.fanzinho p {
+    font-family: 'Istok Web', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #141414;
+  }
+  div.fanzinho h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #141414;
+
+    div.fanzinho span {
+      font-family: 'Istok Web', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #141414;
+    }
+
+    div.fanzinho button {
+      background: #00b2f6;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+    }
+  }
+`;
+
+export const KitFanzao = styled.div`
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  div.info-fanzao {
+    padding-top: 10%;
+  }
+
+  div.info-fanzao h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #141414;
+  }
+
+  div.info-fanzao p {
+    font-family: 'Istok Web', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #141414;
+  }
+  div.info-fanzao h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #141414;
+
+    div.info-fanzao span {
+      font-family: 'Istok Web', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #141414;
+    }
+
+    div.info-fanzao button {
+      background: #00b2f6;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+    }
   }
 `;

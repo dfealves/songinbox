@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
+  width: 100%;
   background: rgb(13, 44, 84);
   background: linear-gradient(
     180deg,
@@ -10,6 +11,26 @@ export const Container = styled.div`
     rgba(200, 206, 213, 0) 20%
   );
   padding: 0 30px;
+
+  img#logo {
+    margin-right: 20px;
+    padding-right: 20px;
+    height: 80px;
+  }
+  #associe {
+    font-family: 'Istok Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    background: rgba(0, 178, 246, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: -5px 25px;
+  }
 `;
 
 export const Content = styled.div`
@@ -20,18 +41,6 @@ export const Content = styled.div`
   flex-basis: initial;
   align-items: center;
   justify-content: space-around;
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  img {
-    margin-right: 20px;
-    padding-right: 20px;
-    height: 80px;
-  }
 `;
 
 export const ItemMenu = styled(NavLink)`
@@ -41,13 +50,14 @@ export const ItemMenu = styled(NavLink)`
   color: #fff;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 0 15px;
-  padding: 0 45px;
+  padding: 0 30px;
 
   &:hover {
     text-decoration: none;
     color: #fff;
     text-shadow: 2px 2px 3px #444;
+  }
+  .item {
   }
   aside {
     display: flex;
@@ -71,25 +81,6 @@ export const Profile = styled.div`
     strong {
       display: block;
       color: #666666;
-    }
-    button {
-      display: block;
-      height: 48px;
-
-      font-family: 'Istok Web', sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 22px;
-      line-height: 32px;
-      display: flex;
-      text-align: center;
-      margin-top: 2px;
-      font-size: 18px;
-      color: #fff;
-      border: 0;
-      background: rgba(0, 178, 246, 0.8);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 30px;
     }
   }
 `;
