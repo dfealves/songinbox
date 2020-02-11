@@ -10,33 +10,32 @@ import MulherFooter from '../../assets/mulher-ouvindo-musica.png';
 export default function Footer() {
   return (
     <Container>
-      <div className=" row">
-        <div className="col-md div-logo ml-5 mr-5">
-          <img src={logoFooter} id="logo-footer" alt="" />
-        </div>
-
-        <div className="col-md footer mr-5">
-          <div>
-            <p>Sobre a SongInBox</p>
-            <p>Suporte</p>
-            <ul className="social-media">
-              <li>
-                <img src={logoFacebook} alt="" />
-              </li>
-              <li>
-                <img src={logoInstagram} alt="" />
-              </li>
-            </ul>
-          </div>
-          <div className="col-m-2">
-            <img
-              className="ml-5 img-fluid float-left"
-              src={MulherFooter}
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
+      <Row className="footer justify-content-beetwen ali">
+        <Col className="div-Logo" sm={6}>
+          <img src={logoFooter} alt="" />
+        </Col>
+        <Col sm={2} className="info">
+          <p>Sobre a SongInBox</p>
+          <p>Suporte</p>
+          <ul className="social-media">
+            <li>
+              <img className="mr-4" src={logoFacebook} alt="" />
+            </li>
+            <li>
+              <img src={logoInstagram} alt="" />
+            </li>
+          </ul>
+        </Col>
+        <Col sm={4} className="mulherFooter">
+          <img
+            className="img-fluid"
+            src={MulherFooter}
+            width="228"
+            height="223"
+            alt=""
+          />
+        </Col>
+      </Row>
     </Container>
   );
 }

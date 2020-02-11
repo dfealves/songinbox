@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import BannerPrincipal from '../../assets/img-apresentacao.png';
 import MulherMusica from '../../assets/mulher-musica.png';
-import BgFooter from '../../assets/footer-bg.png';
 
 export const Banner = styled.div`
   background: url(${BannerPrincipal}) 100% no-repeat;
   background-size: cover;
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    background-size: 100% 100%;
+  }
 `;
 
 export const Container = styled.div`
@@ -21,6 +23,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin-left: 8%;
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+      margin-left: 40px;
+      margin-top: 0 !important;
+      padding: 0 !important;
+    }
   }
   div.div-banner h1 {
     font-family: Montserrat;
@@ -28,10 +35,12 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 42px;
     line-height: 51px;
-
     color: #f0f0f0;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media screen and (min-width: 300px) and (max-width: 1200px) {
+      font-size: 22px;
+    }
   }
   div.div-banner p {
     font-family: 'Istok Web', sans-serif;
@@ -42,8 +51,11 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #f0f0f0;
+
+    @media screen and (min-width: 300px) and (max-width: 1200px) {
+      font-size: 16px;
+    }
   }
   button {
     display: block;
@@ -69,11 +81,23 @@ export const Content = styled.div`
   flex-wrap: wrap;
   display: flex;
   width: 100%;
+  @media screen and (min-width: 300px) and (max-width: 1200px) {
+    text-align: center;
+    background: none;
+    height: auto;
+  }
 
   div.como-funciona {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     margin-left: 20%;
+
+    @media screen and (min-width: 300px) and (max-width: 1200px) {
+      justify-content: center;
+      text-align: center;
+      margin-left: 0 !important;
+    }
   }
 
   div.como-funciona h1 {
@@ -87,7 +111,7 @@ export const Content = styled.div`
     color: #141414;
   }
 
-  div.como-funciona img {
+  div.como-funciona {
   }
 
   .icon-img {
@@ -110,8 +134,7 @@ export const Content = styled.div`
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    display: flex;
-    align-items: center;
+
     text-align: center;
     color: #141414;
   }

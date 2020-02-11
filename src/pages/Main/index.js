@@ -17,7 +17,7 @@ export default function Main() {
         <Header />
         <Container>
           <div className="row div-banner">
-            <div className="col-sm-12 ml-5 pl-5">
+            <div className="col-sm-12 ">
               <h1>SongInBox</h1>
               <p className="pt-2">
                 Produtos selecionados do seu cenário <br />
@@ -103,7 +103,7 @@ export default function Main() {
               </button>
             </div>
             <div className="col-sm-8">
-              <img src={BoxFanzinho} alt="" />
+              <img className="img-fluid" src={BoxFanzinho} alt="" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function Main() {
         <div className="container">
           <div className="row fanzinho">
             <div className="col-sm-8">
-              <img src={BoxFanzao} alt="" />
+              <img className="img-fluid" src={BoxFanzao} alt="" />
             </div>
             <div className="col-sm-4 text-center info-fanzao">
               <h2>Vinil Box</h2>
