@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Container, ItemMenu } from './styles';
 import logo from '../../assets/logo-menu.png';
 
@@ -53,7 +53,7 @@ export default function Header() {
               activeStyle={ActiveStyle}
               className="pt-1 pb-1"
               id="associe"
-              to="/HelpOrders"
+              to="/Partner"
             >
               Associe
             </ItemMenu>

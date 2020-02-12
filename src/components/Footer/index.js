@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Row, Col } from 'react-bootstrap';
-import { Container, Content } from './styles';
+import { Container } from './styles';
 import logoFooter from '../../assets/logo-footer.png';
 import logoFacebook from '../../assets/Facebook.png';
 import logoInstagram from '../../assets/Instagram.png';
