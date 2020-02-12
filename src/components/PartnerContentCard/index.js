@@ -1,40 +1,57 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-
 import { CardDeck } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import { Body } from './styles';
 
-export default function PartnerContentCard() {
+import confirm from '../../assets/confirm.png';
+export default function PartnerContentCard({ primeiroCard, segundoCard }) {
   return (
     <>
+    <Body>
       <CardDeck className="mt-5">
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card className="card-product">
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
+            <Card.Title>{primeiroCard.titulo}</Card.Title>
+            <Card.Text>{primeiroCard.texto}</Card.Text>
+            <h3>{primeiroCard.texto2}</h3>
+            <Button className="btn-product" variant="primary">Quero esse</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+
+        <Card className="card-product">
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{' '}
-            </Card.Text>
+            <Card.Title>{segundoCard.titulo}</Card.Title>
+            <Card.Text>{segundoCard.texto}</Card.Text>
+            <h3>{segundoCard.texto2}</h3>
+            <Button className="btn-product" variant="primary">Quero esse</Button>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
+        </Card>        
       </CardDeck>
+      <div className="row mt-3">
+        <div className="col-sm-6 pl-4">
+          <p className="products-title text-center">Produtos Básicos</p>
+            <ul className="ml-3 text-center ">
+                <li>Cadernos</li>
+                <li>Adesivos</li>
+                <li>Poster</li>
+                <li>Broches</li>
+                <li>Paches</li>
+            </ul>
+        </div>
+        <div className="col-sm-6 pl-4">
+          <p className="products-title text-center ">Produtos Premium</p>
+          <ul className="ml-3 text-center">
+              <li>Camisetas</li>
+              <li>Canecas</li>
+              <li>Jaquetas</li>
+              <li>Vinil</li>
+              <li>Bolsas</li>
+          </ul>
+        </div>
+      </div>
+    </Body>
     </>
   );
 }

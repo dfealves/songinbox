@@ -31,6 +31,7 @@ export const Container = styled.div`
     align-items: flex-end;
     flex-wrap: wrap;
     flex-shrink: 1;
+    
   }
 
   .social-media {
