@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Main from './pages/Main';
 import About from './pages/About';
 import Partner from './pages/Partner';
+import Support from './pages/Support';
 
 export default function Routes() {
   return (
@@ -11,8 +12,7 @@ export default function Routes() {
         <Route path="/" exact component={Main} />
         <Route path="/about" component={About} />
         <Route path="/partner" component={Partner} />
-        
-        
+        <Route path="/support" component={Support} />
       </Switch>
     </BrowserRouter>
   );

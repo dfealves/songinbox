@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import React from 'react';
 
 import { Button } from 'react-bootstrap';
@@ -9,7 +10,7 @@ import { Body } from './styles';
 export default function PartnerContent() {
   return (
     <Body>
-      <div className="container pb-5 mb-5 pt-5 mb-5">
+      <div className="container pb-5 mb-5 pt-5">
         <div className="row">
           <div className="col-sm-6 selecione-plano">
             <h2>

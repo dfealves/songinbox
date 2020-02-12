@@ -43,6 +43,7 @@ export const Container = styled.div`
     }
   }
   div.div-banner p {
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -61,6 +62,7 @@ export const Container = styled.div`
     display: block;
     height: 48px;
     margin: 0 auto;
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-weight: bold;
     font-size: 25px;
@@ -120,6 +122,7 @@ export const Content = styled.div`
   }
 
   h3.icon-title {
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -129,6 +132,7 @@ export const Content = styled.div`
     color: #141414;
   }
   p.text-descricao {
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -165,6 +169,7 @@ export const KitFanzinho = styled.div`
   }
 
   div.fanzinho p {
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -183,6 +188,7 @@ export const KitFanzinho = styled.div`
     color: #141414;
 
     div.fanzinho span {
+      @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
       font-family: 'Istok Web', sans-serif;
       font-style: normal;
       font-weight: normal;
@@ -219,6 +225,7 @@ export const KitFanzao = styled.div`
   }
 
   div.info-fanzao p {
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
     font-family: 'Istok Web', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -237,6 +244,7 @@ export const KitFanzao = styled.div`
     color: #141414;
 
     div.info-fanzao span {
+      @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
       font-family: 'Istok Web', sans-serif;
       font-style: normal;
       font-weight: normal;

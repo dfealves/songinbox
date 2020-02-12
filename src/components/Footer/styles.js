@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 import bgFooter from '../../assets/footer-bg.png';
 
 export const Container = styled.div`
@@ -16,6 +17,7 @@ export const Container = styled.div`
   line-height: 29px;
   display: flex;
   align-items: center;
+
   @media screen and (min-width: 300px) and (max-width: 900px) {
     background: #d9dce0;
     text-align: center;
@@ -55,5 +57,12 @@ export const Container = styled.div`
     @media screen and (min-width: 300px) and (max-width: 900px) {
       width: 50%;
     }
+  }
+`;
+
+export const ItemMenu = styled(NavLink)`
+  color: #0d2c54;
+  &:hover {
+    text-decoration: none;
   }
 `;
