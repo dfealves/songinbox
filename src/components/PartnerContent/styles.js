@@ -33,7 +33,7 @@ export const Body = styled.div`
     font-size: 18px;
   }
 
-  .mensal {
+  .not-active {
     background: rgba(255, 180, 0, 0.2) !important;
   }
 `;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Button } from 'react-bootstrap';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -7,6 +7,8 @@ import CaixaMusica from '../../assets/caixa_musica.png';
 import { Body } from './styles';
 
 export default function PartnerContent() {
+  const [tipoPlano, setTipoPlano] = useState('Mensal');
+
   return (
     <Body>
       <div className="container pb-5 mb-5 pt-5 mb-5">
@@ -19,12 +21,50 @@ export default function PartnerContent() {
           </div>
           <div className="col-sm div-plano">
             <ButtonGroup className="justify-content-center">
-              <Button className="btn-plano">Semestral</Button>
-              <Button className="btn-plano mensal">Mensal</Button>
+              <Button
+                onClick={() => setTipoPlano('Semestral')}
+                className={{
+                  'btn-plano': true,
+                  'not-active': tipoPlano !== 'Semestral',
+                }}
+              >
+                Semestral
+              </Button>
+              <Button
+                onClick={() => setTipoPlano('Mensal')}
+                className={{
+                  'btn-plano': true,
+                  'not-active': tipoPlano !== 'Mensal',
+                }}
+              >
+                Mensal
+              </Button>
             </ButtonGroup>
             <div className="col-sm ">
               <div className="col-sm">
-                <Card />
+                {tipoPlano === 'Mensal' ? (
+                  <Card
+                    primeiroCard={{
+                      titulo: 'Titulo Mensal 1',
+                      texto: 'Texto Mensal 1',
+                    }}
+                    segundoCard={{
+                      titulo: 'Titulo Mensal 2',
+                      texto: 'Texto Mensal 2',
+                    }}
+                  />
+                ) : (
+                  <Card
+                    primeiroCard={{
+                      titulo: 'Titulo Semestral 1',
+                      texto: 'Texto Semestral 1',
+                    }}
+                    segundoCard={{
+                      titulo: 'Titulo Semestral 2',
+                      texto: 'Texto Semestral 2',
+                    }}
+                  />
+                )}
               </div>
             </div>
           </div>
