@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import confirm from '../../assets/confirm.png';
+
 export const Body = styled.div`
   font-family: 'Montserrat', sans-serif;
   h2 {
@@ -31,39 +31,49 @@ export const Body = styled.div`
     background: rgba(255, 180, 0, 0.2) !important;
   }
 
-  .card-product{
+  .card-product {
     background: rgba(0, 178, 246, 0.2);
     border-radius: 20px;
   }
 
-  .btn-product{
+  .btn-product {
     background: rgba(0, 178, 246, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0;
     border-radius: 30px;
+    @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+
+    text-align: center;
+    color: #f0f0f0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
-  .products-title{
+  .products-title {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
   }
   ul {
-    list-style-image: url(${confirm})!important;
+    list-style: none;
+    text-align: justify;
   }
   li span {
-    position: relative;
-    left: -10px;
   }
   ul li {
-    position: relative;
-    right:10px;
   }
 
-  li,  ul, p.products-title{
-     @media screen and (min-width: 300px) and (max-width: 1200px) {
-       display: none
-     }
-
-
+  li,
+  ul,
+  p.products-title {
+    @media screen and (min-width: 300px) and (max-width: 1200px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
 `;

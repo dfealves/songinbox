@@ -9,7 +9,7 @@ export default function PartnerContent() {
   const [tipoPlano, setTipoPlano] = useState('Mensal');
   return (
     <Body>
-      <div className="container pb-5 mb-5 pt-5">
+      <div className="container  pt-5">
         <div className="row">
           <div className="col-sm-6 selecione-plano">
             <h2>

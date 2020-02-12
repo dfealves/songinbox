@@ -51,7 +51,7 @@ export default function Header() {
             </ItemMenu>
             <ItemMenu
               activeStyle={ActiveStyle}
-              className="pt-1 pb-1"
+              className="pt-2 pb-2"
               id="associe"
               to="/Partner"
             >

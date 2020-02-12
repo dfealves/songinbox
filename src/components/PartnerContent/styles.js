@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import bgFooter from '../../assets/footer-bg.png';
 
 export const Body = styled.div`
   font-family: 'Montserrat', sans-serif;
@@ -24,7 +23,8 @@ export const Body = styled.div`
   }
 
   .btn-plano {
-    background: #ffb400;
+    background: #ffb400 !important;
+
     border: none;
     width: 120px;
     height: 48px;
@@ -33,7 +33,8 @@ export const Body = styled.div`
     font-size: 18px;
   }
 
-  .mensal {
+  .not-active {
     background: rgba(255, 180, 0, 0.2) !important;
+    border: 0;
   }
 `;
