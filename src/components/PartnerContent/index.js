@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-/* eslint-disable import/no-cycle */
-import React from 'react';
-
-=======
 import React, { useState } from 'react';
->>>>>>> 3051d126a1133d71c23fe150aa6d68d67fa36453
 import { Button } from 'react-bootstrap';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Card from '../PartnerContentCard';
 import CaixaMusica from '../../assets/caixa_musica.png';
 import { Body } from './styles';
+
 export default function PartnerContent() {
   const [tipoPlano, setTipoPlano] = useState('Mensal');
   return (
@@ -50,32 +45,28 @@ export default function PartnerContent() {
                     primeiroCard={{
                       titulo: 'Cassete Box',
                       texto: 'O box conterá 1 produto premium e 2 básicos.',
-                      texto2: 'R$ 40,99'
+                      texto2: 'R$ 40,99',
                     }}
                     segundoCard={{
                       titulo: 'Vinil Box',
                       texto: 'O box conterá 2 produtos premium e 3 básicos.',
                       texto2: 'R$ 50,99',
                     }}
-                    
                   />
-
                 ) : (
                   <Card
                     primeiroCard={{
                       titulo: 'Cassete Box',
                       texto: 'O box conterá 1 produto premium e 2 básicos.',
-                      texto2: 'R$ 46,99'
+                      texto2: 'R$ 46,99',
                     }}
                     segundoCard={{
                       titulo: 'Vinil Box',
                       texto: 'O box conterá 2 produtos premium e 3 básicos.',
                       texto2: 'R$ 54,99',
                     }}
-                    
                   />
-                )}               
-              
+                )}
               </div>
             </div>
           </div>
