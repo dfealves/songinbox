@@ -8,8 +8,8 @@ import PreviousBox from './pages/PreviousBox';
 
 export default function Routes() {
   return (
-    // <BrowserRouter basename="/songinbox">
-    <BrowserRouter>
+    <BrowserRouter basename="/songinbox">
+      {/* <BrowserRouter> */}
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/about" component={About} />
