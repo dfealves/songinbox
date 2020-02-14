@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/songinbox/static/js/main.ae88fad6.chunk.js",
+    "main.js.map": "/songinbox/static/js/main.ae88fad6.chunk.js.map",
+    "runtime-main.js": "/songinbox/static/js/runtime-main.825e0d70.js",
+    "runtime-main.js.map": "/songinbox/static/js/runtime-main.825e0d70.js.map",
+    "static/css/2.67123b20.chunk.css": "/songinbox/static/css/2.67123b20.chunk.css",
+    "static/js/2.7a8040cd.chunk.js": "/songinbox/static/js/2.7a8040cd.chunk.js",
+    "static/js/2.7a8040cd.chunk.js.map": "/songinbox/static/js/2.7a8040cd.chunk.js.map",
+    "index.html": "/songinbox/index.html",
+    "precache-manifest.88015c89af0aff8f8c91fe3eda35f915.js": "/songinbox/precache-manifest.88015c89af0aff8f8c91fe3eda35f915.js",
+    "service-worker.js": "/songinbox/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/songinbox/static/css/2.67123b20.chunk.css.map",
+    "static/js/2.7a8040cd.chunk.js.LICENSE.txt": "/songinbox/static/js/2.7a8040cd.chunk.js.LICENSE.txt",
+    "static/media/CasseteBox-mini.png": "/songinbox/static/media/CasseteBox-mini.b4ab1e76.png",
+    "static/media/VinilBox-mini.png": "/songinbox/static/media/VinilBox-mini.d714783d.png",
+    "static/media/caixa_musica.png": "/songinbox/static/media/caixa_musica.d7f638b1.png",
+    "static/media/image-sobre.png": "/songinbox/static/media/image-sobre.a245662c.png",
+    "static/media/img-apresentacao.png": "/songinbox/static/media/img-apresentacao.c1c441e4.png",
+    "static/media/kit-fanzao.png": "/songinbox/static/media/kit-fanzao.25c0484f.png",
+    "static/media/kit-fanzinho.png": "/songinbox/static/media/kit-fanzinho.82804571.png",
+    "static/media/logo-menu.png": "/songinbox/static/media/logo-menu.3061ad94.png",
+    "static/media/mulher-musica.png": "/songinbox/static/media/mulher-musica.b8124f2c.png",
+    "static/media/previous-mini.png": "/songinbox/static/media/previous-mini.4d674868.png",
+    "static/media/previous-mobile.png": "/songinbox/static/media/previous-mobile.7cbd6989.png",
+    "static/media/previous.png": "/songinbox/static/media/previous.5dc21948.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.825e0d70.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.7a8040cd.chunk.js",
+    "static/js/main.ae88fad6.chunk.js"
+  ]
+}
