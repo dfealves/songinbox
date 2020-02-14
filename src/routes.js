@@ -8,7 +8,7 @@ import PreviousBox from './pages/PreviousBox';
 
 export default function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/songinbox">
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/about" component={About} />
