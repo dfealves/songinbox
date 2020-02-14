@@ -58,7 +58,7 @@ export const Container = styled.div`
       font-size: 16px;
     }
   }
-  button {
+  button#btn-banner {
     display: block;
     height: 48px;
     margin: 0 auto;

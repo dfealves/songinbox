@@ -32,7 +32,7 @@ export default function Main() {
                   textDecoration: 'none',
                 }}
               >
-                <button id="associe" type="button" className="pl-5 pr-5">
+                <button type="button" id="btn-banner" className="pl-5 pr-5">
                   Associe-se
                 </button>
               </Link>
@@ -43,6 +43,9 @@ export default function Main() {
       <Content>
         <div className="container pb-5 mb-5">
           <div className="row como-funciona mb-5">
+            {/* <div className="col-sm-2">
+              <h1 className="text-left">Como funciona ?</h1>
+            </div> */}
             <div className="col-sm-3 mt-5  text-center">
               <img className="icon-img mt-2" src={Gift} alt="" />
               <h3 className="icon-title pt-2">SongInBox</h3>

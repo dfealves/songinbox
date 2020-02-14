@@ -11,19 +11,27 @@ export default function PurchaseStatus() {
           <Col lg={8}>
             <ul className="order-purchase">
               <li>
-                <span className="mr-2 firstItem">1</span>
+                <span className="mr-2" id="firstItem">
+                  1
+                </span>
                 SongInBox
               </li>
               <li>
-                <span className="mr-2 purchase-item">2</span>
+                <span className="mr-2" id="purchase-item">
+                  2
+                </span>
                 Identificação
               </li>
               <li>
-                <span className="mr-2 purchase-item">3</span>
+                <span className="mr-2" id="purchase-item">
+                  3
+                </span>
                 Entrega
               </li>
               <li>
-                <span className="mr-2 purchase-item">4</span>
+                <span className="mr-2" id="purchase-item">
+                  4
+                </span>
                 Pagamento
               </li>
             </ul>

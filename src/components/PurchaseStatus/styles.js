@@ -7,7 +7,7 @@ export const Body = styled.div`
     justify-content: space-around;
     align-items: center;
   }
-  ul li .firstItem {
+  #firstItem {
     background: #f6511d;
     border-radius: 50%;
     @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
@@ -19,7 +19,7 @@ export const Body = styled.div`
     padding: 5px 10px;
     color: #141414;
   }
-  ul li .purchase-item {
+  #purchase-item {
     background: #ffb400;
     border-radius: 50%;
     @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
