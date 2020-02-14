@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/songinbox/static/js/main.002131a5.chunk.js",
-    "main.js.map": "/songinbox/static/js/main.002131a5.chunk.js.map",
+    "main.js": "/songinbox/static/js/main.79069cc0.chunk.js",
+    "main.js.map": "/songinbox/static/js/main.79069cc0.chunk.js.map",
     "runtime-main.js": "/songinbox/static/js/runtime-main.825e0d70.js",
     "runtime-main.js.map": "/songinbox/static/js/runtime-main.825e0d70.js.map",
     "static/css/2.67123b20.chunk.css": "/songinbox/static/css/2.67123b20.chunk.css",
     "static/js/2.7a8040cd.chunk.js": "/songinbox/static/js/2.7a8040cd.chunk.js",
     "static/js/2.7a8040cd.chunk.js.map": "/songinbox/static/js/2.7a8040cd.chunk.js.map",
     "index.html": "/songinbox/index.html",
-    "precache-manifest.315e8b4265241b929c9b63d91a873992.js": "/songinbox/precache-manifest.315e8b4265241b929c9b63d91a873992.js",
+    "precache-manifest.63d6926ba5b24a282ca25ff8018bbff3.js": "/songinbox/precache-manifest.63d6926ba5b24a282ca25ff8018bbff3.js",
     "service-worker.js": "/songinbox/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/songinbox/static/css/2.67123b20.chunk.css.map",
     "static/js/2.7a8040cd.chunk.js.LICENSE.txt": "/songinbox/static/js/2.7a8040cd.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.825e0d70.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.7a8040cd.chunk.js",
-    "static/js/main.002131a5.chunk.js"
+    "static/js/main.79069cc0.chunk.js"
   ]
 }
