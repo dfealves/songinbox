@@ -32,7 +32,21 @@ export default function Main() {
                   textDecoration: 'none',
                 }}
               >
-                <button type="button" className="pl-5 pr-5">
+                <button
+                  id="associe"
+                  type="button"
+                  className="pl-5 pr-5"
+                  style={{
+                    width: '194px',
+                    height: '66.63px',
+                    background: '#00B2F6',
+                    boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+                    borderRadius: '30px',
+                    border: '0',
+                    color: '#fff',
+                    fontSize: '20px',
+                  }}
+                >
                   Associe-se
                 </button>
               </Link>
