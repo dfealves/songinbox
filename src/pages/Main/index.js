@@ -33,7 +33,6 @@ export default function Main() {
                 }}
               >
                 <button
-                  id="associe"
                   type="button"
                   className="pl-5 pr-5"
                   style={{
