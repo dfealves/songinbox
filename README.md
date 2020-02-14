@@ -7,4 +7,4 @@ A SongInBox está aqui para te conectar novamente com a música através do noss
 
 
 # Repositório
- Após ter clonado o repositório abra o terminal/cmd, vá até a pasta raiz e execute **yarn** para baixar todas as dependências **Sinta-se a vontade para enviar pull requests!**
+ Após ter clonado o repositório abra o terminal/cmd, vá até a pasta raiz e execute o comando **yarn** para baixar todas as dependências **Sinta-se a vontade para enviar pull requests!**
