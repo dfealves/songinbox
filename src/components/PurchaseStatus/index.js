@@ -11,25 +11,81 @@ export default function PurchaseStatus() {
           <Col lg={8}>
             <ul className="order-purchase">
               <li>
-                <span className="mr-2" id="firstItem">
+                <span
+                  className="mr-2"
+                  id="firstItem"
+                  style={{
+                    background: '#f6511d',
+                    borderRadius: '50%',
+                    fontFamily: 'Istok Web',
+                    fontStyle: 'normal',
+                    fontWeight: 'normal',
+                    fontSize: '16px',
+                    lineheight: '23px',
+                    padding: '5px 10px',
+                    color: '#141414',
+                  }}
+                >
                   1
                 </span>
                 SongInBox
               </li>
               <li>
-                <span className="mr-2" id="purchase-item">
+                <span
+                  className="mr-2"
+                  id="purchase-item"
+                  style={{
+                    background: '#ffb400',
+                    borderRadius: '50%',
+                    fontFamily: 'Istok Web',
+                    fontStyle: 'normal',
+                    fontWeight: 'normal',
+                    fontSize: '16px',
+                    lineheight: '23px',
+                    padding: '5px 10px',
+                    color: '#141414',
+                  }}
+                >
                   2
                 </span>
                 Identificação
               </li>
               <li>
-                <span className="mr-2" id="purchase-item">
+                <span
+                  className="mr-2"
+                  id="purchase-item"
+                  style={{
+                    background: '#ffb400',
+                    borderRadius: '50%',
+                    fontFamily: 'Istok Web',
+                    fontStyle: 'normal',
+                    fontWeight: 'normal',
+                    fontSize: '16px',
+                    lineheight: '23px',
+                    padding: '5px 10px',
+                    color: '#141414',
+                  }}
+                >
                   3
                 </span>
                 Entrega
               </li>
               <li>
-                <span className="mr-2" id="purchase-item">
+                <span
+                  className="mr-2"
+                  id="purchase-item"
+                  style={{
+                    background: '#ffb400',
+                    borderRadius: '50%',
+                    fontFamily: 'Istok Web',
+                    fontStyle: 'normal',
+                    fontWeight: 'normal',
+                    fontSize: '16px',
+                    lineheight: '23px',
+                    padding: '5px 10px',
+                    color: '#141414',
+                  }}
+                >
                   4
                 </span>
                 Pagamento
