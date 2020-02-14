@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import { Container, ItemMenu } from './styles';
 import logoFooter from '../../assets/logo-footer.png';
@@ -16,10 +16,12 @@ export default function Footer() {
           <img src={logoFooter} alt="" />
         </Col>
         <Col sm={2} className="info">
-          <ItemMenu to="/Support">
+          <ItemMenu to="/About">
             <p>Sobre a SongInBox</p>
           </ItemMenu>
-          <p>Suporte</p>
+          <ItemMenu to="/Support">
+            <p>Suporte</p>
+          </ItemMenu>
           <ul className="social-media">
             <li>
               <img className="mr-4" src={logoFacebook} alt="" />

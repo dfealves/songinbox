@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Container, ItemMenu } from './styles';
 import logo from '../../assets/logo-menu.png';
@@ -12,8 +12,10 @@ export default function Header() {
   return (
     <Container>
       <Navbar expand="lg">
-        <Navbar.Brand href="#home">
-          <img src={logo} id="logo" alt="" />
+        <Navbar.Brand href="">
+          <Link to="/">
+            <img src={logo} id="logo" alt="" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
@@ -38,7 +40,7 @@ export default function Header() {
             <ItemMenu
               className="pt-1 pb-1"
               activeStyle={ActiveStyle}
-              to="/Registrations"
+              to="/PreviousBox"
             >
               Box Anteriores
             </ItemMenu>

@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Card from '../PartnerContentCard';
 import CaixaMusica from '../../assets/caixa_musica.png';
+import StatusPurchase from '../PurchaseStatus';
 import { Body } from './styles';
 
 export default function PartnerContent() {
@@ -10,6 +11,7 @@ export default function PartnerContent() {
   return (
     <Body>
       <div className="container  pt-5">
+        <StatusPurchase />
         <div className="row">
           <div className="col-sm-6 selecione-plano">
             <h2>
@@ -58,12 +60,12 @@ export default function PartnerContent() {
                     primeiroCard={{
                       titulo: 'Cassete Box',
                       texto: 'O box conterá 1 produto premium e 2 básicos.',
-                      texto2: 'R$ 46,99',
+                      texto2: 'R$ 79,90',
                     }}
                     segundoCard={{
                       titulo: 'Vinil Box',
                       texto: 'O box conterá 2 produtos premium e 3 básicos.',
-                      texto2: 'R$ 54,99',
+                      texto2: 'R$ 99,90',
                     }}
                   />
                 )}

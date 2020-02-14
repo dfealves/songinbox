@@ -1,7 +1,16 @@
 import React from 'react';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import AboutContent from '../../components/AboutContent';
 
 // import { Container } from './styles';
 
 export default function About() {
-  return <h1>About us</h1>;
+  return (
+    <>
+      <Header />
+      <AboutContent />
+      <Footer />
+    </>
+  );
 }

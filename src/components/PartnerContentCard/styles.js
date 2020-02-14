@@ -26,6 +26,7 @@ export const Body = styled.div`
     color: #000000;
     border-radius: 10px 10px 10px 10px;
     font-size: 18px;
+    outline: 0;
   }
   .not-active {
     background: rgba(255, 180, 0, 0.2) !important;

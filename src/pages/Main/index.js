@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Gift from '../../assets/gift.png';
@@ -16,6 +17,7 @@ export default function Main() {
       <Banner>
         <Header />
         <Container>
+          <div />
           <div className="row div-banner">
             <div className="col-sm-12 ">
               <h1>SongInBox</h1>
@@ -24,9 +26,16 @@ export default function Main() {
                 musical favorito entregues diretamente <br />
                 na sua casa.
               </p>
-              <button type="button" className="pl-5 pr-5">
-                Associe-se
-              </button>
+              <Link
+                to="/partner"
+                style={{
+                  textDecoration: 'none',
+                }}
+              >
+                <button type="button" className="pl-5 pr-5">
+                  Associe-se
+                </button>
+              </Link>
             </div>
           </div>
         </Container>
@@ -82,25 +91,32 @@ export default function Main() {
           <div className="row fanzinho">
             <div className="col-sm-4 text-center info-fanzinho">
               <h2>Cassete Box</h2>
-              <p>3 Produtos selecionados pelo seu curador</p>
+              <p>O box conterá 1 produto premium e 2 básicos.</p>
               <h1>R$ 34,99</h1>
               <span>*por 6 meses</span> <br />
-              <button
-                type="button"
-                className="pl-5 pr-5"
+              <Link
+                to="/partner"
                 style={{
-                  width: '194px',
-                  height: '66.63px',
-                  background: '#00B2F6',
-                  boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-                  borderRadius: '30px',
-                  border: '0',
-                  color: '#fff',
-                  fontSize: '20px',
+                  textDecoration: 'none',
                 }}
               >
-                Associe-se
-              </button>
+                <button
+                  type="button"
+                  className="pl-5 pr-5"
+                  style={{
+                    width: '194px',
+                    height: '66.63px',
+                    background: '#00B2F6',
+                    boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+                    borderRadius: '30px',
+                    border: '0',
+                    color: '#fff',
+                    fontSize: '20px',
+                  }}
+                >
+                  Associe-se
+                </button>
+              </Link>
             </div>
             <div className="col-sm-8">
               <img className="img-fluid" src={BoxFanzinho} alt="" />
@@ -129,25 +145,32 @@ export default function Main() {
             </div>
             <div className="col-sm-4 text-center info-fanzao">
               <h2>Vinil Box</h2>
-              <p>5 Produtos selecionados pelo seu curador</p>
+              <p>O box conterá 2 produtos premium e 3 básicos.</p>
               <h1>R$ 49,99</h1>
               <span>*por 6 meses</span> <br />
-              <button
-                type="button"
-                className="pl-5 pr-5"
+              <Link
+                to="/partner"
                 style={{
-                  width: '194px',
-                  height: '66.63px',
-                  background: '#00B2F6',
-                  boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-                  borderRadius: '30px',
-                  border: '0',
-                  color: '#fff',
-                  fontSize: '20px',
+                  textDecoration: 'none',
                 }}
               >
-                Associe-se
-              </button>
+                <button
+                  type="button"
+                  className="pl-5 pr-5"
+                  style={{
+                    width: '194px',
+                    height: '66.63px',
+                    background: '#00B2F6',
+                    boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+                    borderRadius: '30px',
+                    border: '0',
+                    color: '#fff',
+                    fontSize: '20px',
+                  }}
+                >
+                  Associe-se
+                </button>
+              </Link>
             </div>
           </div>
         </div>

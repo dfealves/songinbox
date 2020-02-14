@@ -4,6 +4,7 @@ import Main from './pages/Main';
 import About from './pages/About';
 import Partner from './pages/Partner';
 import Support from './pages/Support';
+import PreviousBox from './pages/PreviousBox';
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
         <Route path="/about" component={About} />
         <Route path="/partner" component={Partner} />
         <Route path="/support" component={Support} />
+        <Route path="/previousbox" component={PreviousBox} />
       </Switch>
     </BrowserRouter>
   );
