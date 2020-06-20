@@ -13,7 +13,7 @@ A SongInBox está aqui para te conectar novamente com a música através do noss
 ![enter image description here](http://i.picasion.com/pic90/28fe3b3da3d36925ae87bc50d67cc6fe.gif)
 
 
-### Desenvolvido com
+
 Esse projeto foi desenvolvido com as seguintes tecnologias
 
 -   [ReactJS](https://reactjs.org/)
